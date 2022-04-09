@@ -1,0 +1,13 @@
+
+:root {
+    --header: white;
+    --header-backgrond: #292929;
+    --hover: #58c93a;
+    --border:#1e1e1e;
+    --card-title: #4f4e4e;
+    --card-excerpt: #606060;
+    --card-btn: #c2c2c2;
+    --footer-background: #f8f8f8;
+    --footer-small:#a6a6a6;
+    --paging:#818181;
+}
