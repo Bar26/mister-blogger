@@ -1,0 +1,16 @@
+.paging{
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.paging .btn{
+    background-color: transparent;
+    border: none;
+    color: var(--paging);
+    font-family: lato-bold;
+    font-size: 1.125rem;
+    letter-spacing: 0.055em;
+    line-height: 1.667;
+}
+

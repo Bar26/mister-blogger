@@ -1,0 +1,37 @@
+.main-footer{
+    background-color: var(--footer-background);
+    height: 315px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer .footer-content{
+    height: 155px;
+    justify-content: center;
+    align-items: center; 
+    gap:40px;
+}
+
+.main-footer .footer-content .logo{
+    font-size: 2.5rem;
+    font-family: euro;
+    color: var(--header-backgrond);
+    letter-spacing: 0.025em;
+}
+
+.main-footer .footer-content .logo span{
+    color: var(--hover);
+}
+
+.main-footer .footer-content small{
+    color:var(--footer-small)
+}
+
+.main-footer .footer-content small span{
+    font-family: lato-bold;
+}
+
+.main-footer .footer-content .icons{
+    gap:20px;
+}
+

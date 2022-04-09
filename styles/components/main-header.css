@@ -1,0 +1,47 @@
+.main-header{
+    background-color: var(--header-backgrond);
+    margin-bottom: 80px;
+    
+}
+
+.main-header .header-content{
+    min-height: 130px;
+  
+}
+
+.main-header .logo{
+    font-family: euro;
+    font-size: 2.5rem;
+    letter-spacing: -0.025em; 
+    color: var(--header);
+}
+
+.main-header .logo span{
+    color: var(--hover);
+}
+
+
+.main-header .header-content .main-nav a{
+    padding: 3.10rem 2.5rem;
+    border-inline-start: 1px solid var(--border);
+}
+
+.main-header .header-content .main-nav a:last-child{
+    border-inline-end: 1px solid var(--border);
+}
+
+
+.main-header .header-content .main-nav a:hover{
+    color: var(--hover);
+    padding: auto;
+    box-shadow: 0 6px 0 var(--hover);
+}
+
+.main-header .header-content a{
+    text-decoration: none;
+    color: var(--header);
+}
+
+
+
+

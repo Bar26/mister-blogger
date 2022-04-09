@@ -1,0 +1,50 @@
+.main-content{
+    gap:80px;
+    margin-bottom: 80px;
+}
+
+.card{
+    gap: 40px;
+}
+
+.card .card-content{
+    flex-basis: 50%;             //מיותר?
+}
+
+.card .card-content .btn-card-read{
+    align-self: start;
+    height: 35px;
+    width: 180px;
+    border-radius: 30px;
+    border: 2px solid var(--card-btn);
+    color: var(--card-btn);
+    background-color: transparent;
+    font-family: lato-bold;
+}
+
+.card .card-content .btn-card-read:hover{
+    color: var(--hover);
+    border-color: var(--hover);
+}
+
+.card .card-content .btn-card-read:hover::after {
+    content: '→';
+    padding-left: 0.5rem;
+    font-size: 1em;
+}
+
+.card .card-content .card-title{
+    font-size: 1.75rem;
+    margin-bottom: 2.143em;
+    letter-spacing:0.036em ;
+    font-family: lato-bold;
+}
+
+.card .card-content .card-excerpt{
+    margin-bottom: 2.8rem;
+}
+
+.card .card-content .card-excerpt p{
+    margin-bottom: 1.875em;
+}
+
