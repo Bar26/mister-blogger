@@ -6,6 +6,10 @@
     justify-content: space-between;
 }
 
+.flex.align-center{
+    align-items: center;
+}
+
 .clean-list{
     margin: 0;
     padding: 0;
